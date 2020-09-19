@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Cameron Hohimer, Ph.D.
+    </title>
+    <link href="./css/layout.css" rel="stylesheet" />
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+<body-research>
+    <div class="navbar">
+        <div class="site-pages">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="research.html">Research</a>
+                </li>
+                <li>
+                    <a href="teaching.html">Teaching</a>
+                </li>
+                <li>
+                    <a href="#personal">Personal</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+   
+    <div class="research-container" style='width:50%;align-self:center;'>
+        <h1>Robotic Apple Harvesting</h1>
+        <p>During my Ph.D. a portion of my project was in applying soft-robotics combined with traditional robotic to
+            unstructured environments. To do this we designed a low cost 3-DOF robotic arm with a 3d-printed
+            soft-robotic manipulator in order to harvest fresh market apples in a commercial orchard in Washington. In
+            this unstructured outdoor environment, we were able to achieve reasonable picking times with minimal fruit
+            damage and make clear recommendations on further pruning techniques to ensure successful robotic harvesting
+            moving forward. </p>
+
+
+
+        <p>Fresh market apple harvesting is a difficult task that relies entirely on manual labor. Much research has
+            been done on the development of mechanical harvesting techniques. Several selective harvesting robots have
+            been developed for research studies, but there are no commercially available robotic systems. This article
+            discusses the design and development of a novel pneumatic 3D-printed soft-robotic end-effector to facilitate
+            apple separation. The end-effector was integrated into a robotic system with five degrees of freedom that
+            was designed to simplify the picking sequence and reduce costs compared to previous versions. Apples were
+            successfully harvested using the low-cost robotic system in a commercial orchard during the fall 2017
+            harvest. A detachment success rate on attempted apples of 67% was achieved, with an average time of 7.3 s
+            per fruit from separation to the storage bin. By conducting this study in an orchard where problematic
+            apples were not removed to increase the detachment success rate, current pruning, and thinning practices
+            were assessed to help lay the foundation for future studies and develop strategies for successfully
+            harvesting apples that are difficult to detach.</p>
+
+
+
+        <figure class="apple-video" style="align-self:center;"><video autoplay controls loop muted
+                src="./images/3applePick.mp4" class="center" style="height:500px;width:auto;"></video>
+            <figcaption style='font-weight:bold;text-align:center;'>Harvesting Prosser Washing 2017</figcaption>
+        </figure>
+
+
+
+        <p>The end effect that I designed used fairly standard inflatable bellows actuators to graps the fruit from the
+            tree while minimizing damage to the tree and apples because of the compliant nature while not inflated. The
+            use of these inflatable fingures greatly imporoved the reliabilty of grasping over previous cable driving
+            compliant fingers. </p>
+
+
+
+        <div class="EE-figure" sytle='align-self=center;'>
+            <img loading="lazy" width="auto" height="400"
+                    src="./images/EE2_newview.jpg" alt=""
+                    class="center"/>
+                <figcaption style='font-weight:bold;text-align:center;'>End-effector CAD design.</figcaption>
+            
+        </div>
+
+
+
+        <p>An FEA model was also implemented based on the printed TPU properties to aid in the bellows design. At the
+            time only a limited number of FDM printed actuators were in development and this work really showcased how
+            the printing technology could be used to fabricate this class of actuator without more complex or
+            time-intensive casting methods. It also allows for the use of thermoplastics with better abrasion and
+            puncture resistance. This is especially important when interacting with the orchard environment where tree
+            branches and guide wires become hazardous to the end-effector. </p>
+
+
+
+        <div class="FEA-Clip">
+            <figure class="aligncenter size-large"><img loading="lazy" width="400" height="auto"
+                    src="./images/FEAClip.gif" alt="" class="center" />
+                <figcaption style='font-weight:bold;text-align:center;'>FEA model of TPU end effector</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="social-list-banner">
+        <ul>
+            <li>
+                <a href="#" class="fa fa-linkedin"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-google"></a>
+            </li>
+            <li>
+                <i class="ai ai-researchgate"></i>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+</body>
+
+</html>

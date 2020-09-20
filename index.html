@@ -1,5 +1,13 @@
 <html lang="en">
-
+<style>
+    .bw {
+        -webkit-filter: grayscale(300%) opacity(75%);;
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(30%) opacity(75%);;
+        max-height: 20em;
+        object-fit: cover;
+    }
+</style>
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -33,18 +41,18 @@
         </nav>
     </div>
 
-    <!--<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./images/skyline.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 style='font-size:xx-large;'>Cameron Hohimer, Ph.D.</h5>
-                    <p style='font-size:larger;'>Research Assosicate Biodesign Lab</p>
-                    <p style='font-size:larger;'>Haravard University</p>
+                <div class="carousel-caption d-none d-md-block" style="padding-bottom:146px;">
+                    <h5 style='font-size:xx-large; color:white; font-weight:bold;'>Cameron Hohimer, Ph.D.</h5>
+                    <p style='font-size:larger; color:white; font-weight:bold;'>Research Assosicate Biodesign Lab</p>
+                    <p style='font-size:larger; color:white; font-weight:bold;'>Haravard University</p>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <div class="container">
 
 
@@ -71,7 +79,7 @@
                 <p class="text-left"><i class="fas fa-map-marker-alt"></i> 60 Oxford St.<br>02138 Cambridge MA</p>
             </div>
             <div class="col-sm-9">
-                <h2>About Me</h2>
+                <!-- <h2>About Me</h2> -->
                 <p style="text-indent:20px;">
                     I am currently a Research Associate in the Biodesign Lab under the direction of Conor Walsh. My
                     research
